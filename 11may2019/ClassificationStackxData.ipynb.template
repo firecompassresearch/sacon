@@ -28,7 +28,7 @@
    "source": [
     "### Data\n",
     "\n",
-    "The following cell will download all data required for this assignment into the folder `week1/data`."
+    "The following cell will download all data required for this assignment into the folder `data/stackx`."
    ]
   },
   {
@@ -37,147 +37,17 @@
    "metadata": {},
    "outputs": [
     {
-     "data": {
-      "application/vnd.jupyter.widget-view+json": {
-       "model_id": "fa44159f5af44cfaa9c7aba4f042cc29",
-       "version_major": 2,
-       "version_minor": 0
-      },
-      "text/html": [
-       "<p>Failed to display Jupyter Widget of type <code>HBox</code>.</p>\n",
-       "<p>\n",
-       "  If you're reading this message in the Jupyter Notebook or JupyterLab Notebook, it may mean\n",
-       "  that the widgets JavaScript is still loading. If this message persists, it\n",
-       "  likely means that the widgets JavaScript library is either not installed or\n",
-       "  not enabled. See the <a href=\"https://ipywidgets.readthedocs.io/en/stable/user_install.html\">Jupyter\n",
-       "  Widgets Documentation</a> for setup instructions.\n",
-       "</p>\n",
-       "<p>\n",
-       "  If you're reading this message in another frontend (for example, a static\n",
-       "  rendering on GitHub or <a href=\"https://nbviewer.jupyter.org/\">NBViewer</a>),\n",
-       "  it may mean that your frontend doesn't currently support widgets.\n",
-       "</p>\n"
-      ],
-      "text/plain": [
-       "HBox(children=(IntProgress(value=0, max=7196138), HTML(value='')))"
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    },
-    {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "\n"
-     ]
-    },
-    {
-     "data": {
-      "application/vnd.jupyter.widget-view+json": {
-       "model_id": "2dc571b5c03842088441e0a6129fed49",
-       "version_major": 2,
-       "version_minor": 0
-      },
-      "text/html": [
-       "<p>Failed to display Jupyter Widget of type <code>HBox</code>.</p>\n",
-       "<p>\n",
-       "  If you're reading this message in the Jupyter Notebook or JupyterLab Notebook, it may mean\n",
-       "  that the widgets JavaScript is still loading. If this message persists, it\n",
-       "  likely means that the widgets JavaScript library is either not installed or\n",
-       "  not enabled. See the <a href=\"https://ipywidgets.readthedocs.io/en/stable/user_install.html\">Jupyter\n",
-       "  Widgets Documentation</a> for setup instructions.\n",
-       "</p>\n",
-       "<p>\n",
-       "  If you're reading this message in another frontend (for example, a static\n",
-       "  rendering on GitHub or <a href=\"https://nbviewer.jupyter.org/\">NBViewer</a>),\n",
-       "  it may mean that your frontend doesn't currently support widgets.\n",
-       "</p>\n"
-      ],
-      "text/plain": [
-       "HBox(children=(IntProgress(value=0, max=2166270), HTML(value='')))"
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "\n"
-     ]
-    },
-    {
-     "data": {
-      "application/vnd.jupyter.widget-view+json": {
-       "model_id": "7358b15413da48ca994f6fc680ad08c2",
-       "version_major": 2,
-       "version_minor": 0
-      },
-      "text/html": [
-       "<p>Failed to display Jupyter Widget of type <code>HBox</code>.</p>\n",
-       "<p>\n",
-       "  If you're reading this message in the Jupyter Notebook or JupyterLab Notebook, it may mean\n",
-       "  that the widgets JavaScript is still loading. If this message persists, it\n",
-       "  likely means that the widgets JavaScript library is either not installed or\n",
-       "  not enabled. See the <a href=\"https://ipywidgets.readthedocs.io/en/stable/user_install.html\">Jupyter\n",
-       "  Widgets Documentation</a> for setup instructions.\n",
-       "</p>\n",
-       "<p>\n",
-       "  If you're reading this message in another frontend (for example, a static\n",
-       "  rendering on GitHub or <a href=\"https://nbviewer.jupyter.org/\">NBViewer</a>),\n",
-       "  it may mean that your frontend doesn't currently support widgets.\n",
-       "</p>\n"
-      ],
-      "text/plain": [
-       "HBox(children=(IntProgress(value=0, max=1041379), HTML(value='')))"
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "\n"
-     ]
-    },
-    {
-     "data": {
-      "application/vnd.jupyter.widget-view+json": {
-       "model_id": "139db45c44674015a0b66bb734194e75",
-       "version_major": 2,
-       "version_minor": 0
-      },
-      "text/html": [
-       "<p>Failed to display Jupyter Widget of type <code>HBox</code>.</p>\n",
-       "<p>\n",
-       "  If you're reading this message in the Jupyter Notebook or JupyterLab Notebook, it may mean\n",
-       "  that the widgets JavaScript is still loading. If this message persists, it\n",
-       "  likely means that the widgets JavaScript library is either not installed or\n",
-       "  not enabled. See the <a href=\"https://ipywidgets.readthedocs.io/en/stable/user_install.html\">Jupyter\n",
-       "  Widgets Documentation</a> for setup instructions.\n",
-       "</p>\n",
-       "<p>\n",
-       "  If you're reading this message in another frontend (for example, a static\n",
-       "  rendering on GitHub or <a href=\"https://nbviewer.jupyter.org/\">NBViewer</a>),\n",
-       "  it may mean that your frontend doesn't currently support widgets.\n",
-       "</p>\n"
-      ],
-      "text/plain": [
-       "HBox(children=(IntProgress(value=0, max=5091), HTML(value='')))"
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "\n"
+      "File data/stackx/train.tsv is already downloaded.\n",
+      "File data/stackx/validation.tsv is already downloaded.\n",
+      "File data/stackx/test.tsv is already downloaded.\n",
+      "File data/stackx/text_prepare_tests.tsv is already downloaded.\n",
+      "File data/stackx/train.tsv is already downloaded.\n",
+      "File data/stackx/validation.tsv is already downloaded.\n",
+      "File data/stackx/test.tsv is already downloaded.\n",
+      "File data/stackx/text_prepare_tests.tsv is already downloaded.\n"
      ]
     }
    ],
@@ -331,6 +201,7 @@
    "source": [
     "REPLACE_BY_SPACE_RE = re.compile('[/(){}\\[\\]\\|@,;]')\n",
     "BAD_SYMBOLS_RE = re.compile('[^0-9a-z #+_]')\n",
+    "MULTIPLE_SPACE_RE = re.compile('[ ]+')\n",
     "STOPWORDS = set(stopwords.words('english'))\n",
     "\n",
     "def text_prepare(text):\n",
@@ -377,13 +248,6 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "Run your implementation for questions from file *text_prepare_tests.tsv*"
-   ]
-  },
-  {
    "cell_type": "code",
    "execution_count": null,
    "metadata": {
@@ -413,6 +277,7 @@
    },
    "outputs": [],
    "source": [
+    "X_train[:3]\n",
     "X_train = [text_prepare(x) for x in X_train]\n",
     "X_val = [text_prepare(x) for x in X_val]\n",
     "X_test = [text_prepare(x) for x in X_test]"
