@@ -1,8 +1,5 @@
 
 ===================================================================
-This container contains dependencies that you might need
-to complete course assignments.
-
 You can also install any additional system dependencies with
 > apt-get install PACKAGE_NAME
 

@@ -21,6 +21,8 @@ push_latest: build_latest
 push: build
 	docker push ${REPO}/${NAME}:${VERSION}
 
+push-all: push push_latest
+	echo "Done"
 
 run:
 	docker run \
